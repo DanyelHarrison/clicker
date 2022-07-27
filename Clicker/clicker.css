@@ -1,0 +1,53 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1, h2, h3{
+    color: rgb(218, 231, 232 );
+}
+
+h1{
+    font-size: 44px;
+    text-align: center;
+}
+
+h3{
+    font-size: 28px;
+}
+
+#counter{
+    font-weight: bold;
+}
+body{
+    background-image: url("https://img.wallpapersafari.com/desktop/1680/1050/99/5/9FNrQB.jpg");
+}
+.left{
+    float:left;
+    width:45%;
+    align-items: center;
+    text-align: center;
+}
+
+#add-button{
+margin-left: 16.5%;
+}
+
+#add-button:active{
+    transform: scale(0.99);
+}
+
+#add-button:hover{
+    text-shadow: 15px;
+  
+}
+.powerup{
+    float: right;
+    width: 45%;
+}
+
+li{
+    list-style: none;
+    color: rgb( 234, 209, 130 );
+    font-size: 22px;
+}
